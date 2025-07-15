@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand - Ecommerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center border-b pb-2">
+                <img src="images/Brand/logo-colored.png" alt="Brand Logo" class="h-10">
+                <div class="flex gap-4">
+                    <a href="#" class="flex items-center gap-1 text-sm">
+                        <i class="fas fa-globe"></i> English, USD
+                    </a>
+                    <a href="#" class="flex items-center gap-1 text-sm">
+                        <i class="fas fa-truck"></i> Ship to
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-between items-center pt-2">
+                <div class="text-sm text-gray-600">Home > Clothing > Men's wear > Summer clothing</div>
+                <div class="flex gap-4">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-comment"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-6 flex">
+        <!-- Sidebar -->
+        <div class="w-64 bg-white shadow rounded-lg p-4 mr-6">
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Category</h3>
+                <ul class="space-y-1">
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Mobile accessory</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Electronics</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Smartphones</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Modern tech</li>
+                    <li class="text-blue-500 font-medium cursor-pointer">See all</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Brands</h3>
+                <ul class="space-y-1">
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Samsung</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Apple</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Huawei</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Pocco</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Lenovo</li>
+                    <li class="text-blue-500 font-medium cursor-pointer">See all</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Features</h3>
+                <ul class="space-y-1">
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Metallic</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Plastic cover</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">8GB Ram</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Super power</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Large Memory</li>
+                    <li class="text-blue-500 font-medium cursor-pointer">See all</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Price range</h3>
+                <div class="flex gap-2 mb-2">
+                    <input type="text" placeholder="Min" class="w-full p-2 border rounded">
+                    <input type="text" placeholder="Max" class="w-full p-2 border rounded">
+                </div>
+                <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm">Apply</button>
+            </div>
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Condition</h3>
+                <ul class="space-y-1">
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Any</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Refurbished</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Brand new</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Old items</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Ratings</h3>
+                <ul class="space-y-1">
+                    <li class="text-yellow-400 hover:text-yellow-500 cursor-pointer">★★★★★</li>
+                    <li class="text-yellow-400 hover:text-yellow-500 cursor-pointer">★★★★☆</li>
+                    <li class="text-yellow-400 hover:text-yellow-500 cursor-pointer">★★★☆☆</li>
+                    <li class="text-yellow-400 hover:text-yellow-500 cursor-pointer">★★☆☆☆</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Products Grid -->
+        <div class="flex-1 bg-white shadow rounded-lg p-4">
+            <div class="flex justify-between items-center border-b pb-3 mb-4">
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-100 px-3 py-1 rounded-full text-sm flex items-center gap-1">
+                        Samsung <i class="fas fa-times text-xs"></i>
+                    </span>
+                    <span class="bg-gray-100 px-3 py-1 rounded-full text-sm flex items-center gap-1">
+                        Apple <i class="fas fa-times text-xs"></i>
+                    </span>
+                    <span class="bg-gray-100 px-3 py-1 rounded-full text-sm flex items-center gap-1">
+                        Poco <i class="fas fa-times text-xs"></i>
+                    </span>
+                    <span class="bg-gray-100 px-3 py-1 rounded-full text-sm flex items-center gap-1">
+                        Metallic <i class="fas fa-times text-xs"></i>
+                    </span>
+                    <span class="bg-gray-100 px-3 py-1 rounded-full text-sm flex items-center gap-1">
+                        4 star <i class="fas fa-times text-xs"></i>
+                    </span>
+                </div>
+                <div class="text-blue-500 text-sm cursor-pointer">Clear all filter</div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Product 1 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/1.jpg" alt="GoPro HERO6"  class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50 <span class="text-gray-400 line-through text-sm">$1128.00</span>
+                             <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span>
+                        </div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★★☆&star;<span class="text-gray-600 ml-1">7.5</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/4.jpg" alt="GoPro HERO6" class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50 <span class="text-gray-400 line-through text-sm">$1128.00</span>
+                        <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span></div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★☆☆<span class="text-gray-600 ml-1">5.9</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/3.jpg" alt="GoPro HERO6" class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50</span>
+                        <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span></div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★★☆ <span class="text-gray-600 ml-1">7.5</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/2.jpg" alt="GoPro HERO6" class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50 <span class="text-gray-400 line-through text-sm">$1128.00</span>
+                        <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span></div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★★☆<span class="text-gray-600 ml-1">7.5</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/6.jpg" alt="GoPro HERO6" class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50 <span class="text-gray-400 line-through text-sm">$1128.00</span>
+                        <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span></div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★★☆<span class="text-gray-600 ml-1">7.5</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/4.jpg" alt="GoPro HERO6" class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50 </span>
+                        <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span></div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★★☆<span class="text-gray-600 ml-1">7.5</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/7.jpg" alt="GoPro HERO6" class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50 <span class="text-gray-400 line-through text-sm">$1128</span>
+                        <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span></div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★★☆<span class="text-gray-600 ml-1">7.5</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/8.jpg" alt="GoPro HERO6" class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50 <span class="text-gray-400 line-through text-sm">$1128</span>
+                        <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span></div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★★☆<span class="text-gray-600 ml-1">7.5</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 9 -->
+                <div class="border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+                    <div class="h-48 bg-gray-100 flex items-center justify-center">
+                        <!-- Replace with your image -->
+                        <img src="images/tech/1.jpg" alt="GoPro HERO6" class="h-full object-contain">
+                    </div>
+                    <div class="p-3">
+                        <div class="font-bold">$99.50</span>
+                        <span>
+                            <span class="text-white-400 text-sm">&nbsp;&nbsp;&nbsp;&nbsp;🤍</span>
+                        </span></div>
+                        <div class="flex items-center text-yellow-400 text-sm my-1">
+                            ★★★★☆<span class="text-gray-600 ml-1">7.5</span>
+                        </div>
+                        <div class="text-sm">GoPro HERO6 4K Action Camera - Black</div>
+                    </div>
+                </div>
+                <!-- Product 2-8 (same structure as Product 1) -->
+                <!-- Repeat for all 8 products shown in your design -->
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter -->
+    <div class="bg-gray-50 py-8 my-8">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div>
+                <center><h3 class="font-bold">Subscribe on our newsletter</h3>
+                <p  class="text-gray-600 text-sm">Get daily news on upcoming offers from many suppliers all over the world</p></center>
+            </div>
+            <div class="flex gap-1">
+                <input type="email" placeholder="Email" class="px-4 py-2 border rounded w-64">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-white shadow-inner py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-6 gap-8 mb-8">
+                <div class="col-span-1.5">
+                    <img src="images/Brand/logo-colored.png" alt="Brand Logo" class="h-10 mb-4">
+                    <p class="font-awesome text-sm">Best information about the company gets here but now brem ipsum is</p>
+                    <img src="images/Form/emoji.png" class="mt-1">     
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">About</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">About Us</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Find store</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Categories</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Blogs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Partnership</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">About Us</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Find store</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Categories</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Blogs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Information</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">Help Center</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Money Refund</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Shipping</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Contact us</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">For users</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">Login</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Register</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Settings</li>
+                        <li class="hover:text-blue-500 cursor-pointer">My Orders</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Get app</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <img src="images/Misc/Group.png" alt="Google Play" class="h-8 mb-2">
+                        <img src="images/Misc/market-button.png" alt="App Store" class="h-8">
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-gray-500 text-sm border-t pt-4">© 2023 Ecommerce.</div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

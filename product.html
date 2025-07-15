@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail - Brand</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header (same as index.html) -->
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center border-b pb-2">
+                <img src="images/Brand/logo-colored.png" alt="Brand Logo" class="h-10">
+                <div class="flex gap-4">
+                    <a href="#" class="flex items-center gap-1 text-sm">
+                        <i class="fas fa-globe"></i> English, USD
+                    </a>
+                    <a href="#" class="flex items-center gap-1 text-sm">
+                        <i class="fas fa-truck"></i> Ship to
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-between items-center pt-2">
+                <div class="text-sm text-gray-600">Home > Clothing > Men's wear > Summer clothing</div>
+                <div class="flex gap-4">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-comment"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Product Detail -->
+    <div class="container mx-auto px-6 py-6">
+        <div class="flex gap-8">
+            <!-- Product Gallery -->
+            <div class="w-1/2">
+                <div class="h-96 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
+                    <!-- Replace with your main product image -->
+                    <img src="images/shirt1.png" alt="Mens T-Shirt" class="h-full object-contain">
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-20 h-20 bg-gray-100 rounded cursor-pointer"><img src="images/shirt2.png" alt="Mens T-Shirt" class="h-full object-contain"></div>
+                    <div class="w-20 h-20 bg-gray-100 rounded cursor-pointer"><img src="images/shirt6.png" class="items-center"></div>
+                </div>
+            </div>
+            
+            <!-- Product Info -->
+            <div class="w-1/2">
+                <h1 class="text-2xl font-bold mb-2">Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle</h1>
+                <div class="flex items-center text-yellow-400 mb-4">
+                    ★★★★★ <span class="text-gray-600 ml-2">9.3</span>
+                    <span class="text-gray-400 mx-2">▼</span>
+                    <span class="text-gray-600">💬32 reviews</span>
+                    <span class="text-gray-400 mx-2">▼</span>
+                    <span class="text-gray-600">📈154 sold</span>
+                </div>
+                <hr><br>
+                <div class="space-y-4 text-2x">
+                    <div>
+                        <span class="text-gray-400" >Price:</span>&nbsp;Negotiable
+                    </div><hr>
+                    <div>
+                        <span class="font-bold">Type:</span> Classic shoes
+                    </div>
+                    <div>
+                        <span class="font-bold">Material:</span> Plastic material
+                    </div>
+                    <div>
+                        <span class="font-bold">Design:</span> Modern nice
+                    </div><hr>
+                    <div>
+                        <span class="font-bold">Customization:</span> Customized logo and design custom packages
+                    </div>
+                    <div>
+                        <span class="font-bold">Protection:</span> Refund Policy
+                    </div>
+                    <div>
+                        <span class="font-bold">Warranty:</span> 2 years full warranty
+                    </div><hr>
+                </div>
+                <!-- Tabs -->
+                <div class="mt-8 border-b">
+                    <div class="flex space-x-4">
+                        <button class="pb-2 border-b-2 border-blue-500 text-blue-500">Description</button>
+                        <button class="pb-2">Reviews</button>
+                        <button class="pb-2">Shipping</button>
+                        <button class="pb-2">About seller</button>
+                    </div>
+                </div>
+                <!-- Description -->
+                <div class="mt-4 text-gray-600">
+                    <p class="mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    
+                    <!-- Specifications Table -->
+                    <table class="mt-6 w-full">
+                        <tr>
+                            <td class="py-2 font-bold">Model</td>
+                            <td class="py-2">#8786867</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-bold">Style</td>
+                            <td class="py-2">Classic style</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-bold">Certificate</td>
+                            <td class="py-2">ISO-898821212</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-bold">Size</td>
+                            <td class="py-2">34mm x 450mm x 19mm</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-bold">Memory</td>
+                            <td class="py-2">360B RAM</td>
+                        </tr>
+                    </table>
+                    
+                    <!-- Features List -->
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i> Some great feature name here
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i> Lorem ipsum dolor sit amet, consectetur
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i> Duis aute irure dolor in reprehenderit
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i> Some great feature name here
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Related Products -->
+        <div class="mt-12">
+            <h2 class="text-xl font-bold mb-4">Related products</h2>
+            <div class="grid grid-cols-6 gap-4">
+                <!-- Related Product 1 -->
+                <div class="text-center">
+                    <div class="h-40 bg-gray-100 rounded mb-2">
+                        <img src="images/alibaba/Image/cloth/image 24.png" alt="Related Product 1" class="h-full object-contain mx-auto">
+                    </div>
+                    <div class="text-sm">Xiaomi Redmi & Original</div>
+                    <div class="text-sm font-bold">$32.00-$40.00</div>
+                </div>
+                <!-- Repeat for all related products -->
+                <div class="text-center">
+                    <div class="h-40 bg-gray-100 rounded mb-2">
+                        <img src="images/tech/8.jpg" alt="Related Product 2" class="h-full object-contain mx-auto">
+                    </div>
+                    <div class="text-sm">Xiaomi Redmi & Original</div>
+                    <div class="text-sm font-bold">$32.00-$40.00</div>
+                </div>
+                <div class="text-center">
+                    <div class="h-40 bg-gray-100 rounded mb-2">
+                        <img src="images/alibaba/Image/tech/image 86.png" alt="Related Product 3" class="h-full object-contain mx-auto">
+                    </div>
+                    <div class="text-sm">Xiaomi Redmi & Original</div>
+                    <div class="text-sm font-bold">$32.00-$40.00</div>
+                </div>
+                <div class="text-center">
+                    <div class="h-40 bg-gray-100 rounded mb-2">
+                        <img src="images/alibaba/Image/cloth/Bitmap (2).png" alt="Related Product 4" class="h-full object-contain mx-auto">
+                    </div>
+                    <div class="text-sm">Xiaomi Redmi & Original</div>
+                    <div class="text-sm font-bold">$32.00-$40.00</div>
+                </div>
+                <div class="text-center">
+                    <div class="h-40 bg-gray-100 rounded mb-2">
+                        <img src="images/alibaba/Image/tech/image 85.png" alt="Related Product 5" class="h-full object-contain mx-auto">
+                    </div>
+                    <div class="text-sm">Xiaomi Redmi & Original</div>
+                    <div class="text-sm font-bold">$32.00-$40.00</div>
+                </div>
+                <div class="text-center">
+                    <div class="h-40 bg-gray-100 rounded mb-2">
+                        <img src="images/interior/7.jpg" alt="Related Product 6" class="h-full object-contain mx-auto">
+                    </div>
+                    <div class="text-sm">Xiaomi Redmi & Original</div>
+                    <div class="text-sm font-bold">$32.00-$40.00</div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <!-- Promo Banner -->
+        <div class="mt-8 bg-blue-500 rounded-lg p-6 text-center">
+            <h3 class="font-bold text-white mb-2">Super discount on more than 100 USD</h3>
+            <p class="text-gray-600 mb-4">Have you ever finally just write dummy info</p>
+            <button class="bg-yellow-500 text-white px-6 py-2 rounded">Shop now</button>
+        </div>
+    </div>
+    
+    <!-- Footer (same as index.html) -->
+     <!-- Footer -->
+    <footer class="bg-white shadow-inner py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-6 gap-8 mb-8">
+                <div class="col-span-1.5">
+                    <img src="images/Brand/logo-colored.png" alt="Brand Logo" class="h-10 mb-4">
+                    <p class="font-awesome text-sm">Best information about the company gets here but now brem ipsum is</p>
+                    <img src="images/Form/emoji.png" class="mt-1">     
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">About</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">About Us</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Find store</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Categories</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Blogs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Partnership</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">About Us</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Find store</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Categories</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Blogs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Information</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">Help Center</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Money Refund</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Shipping</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Contact us</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">For users</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">Login</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Register</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Settings</li>
+                        <li class="hover:text-blue-500 cursor-pointer">My Orders</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Get app</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <img src="images/Misc/Group.png" alt="Google Play" class="h-8 mb-2">
+                        <img src="images/Misc/market-button.png" alt="App Store" class="h-8">
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-gray-500 text-sm border-t pt-4">© 2023 Ecommerce.</div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

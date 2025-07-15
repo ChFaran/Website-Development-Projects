@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand - List View</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header (same as index.html) -->
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center border-b pb-2">
+                <img src="images/Brand/logo-colored.png" alt="Brand Logo" class="h-10">
+                <div class="flex gap-4">
+                    <a href="#" class="flex items-center gap-1 text-sm">
+                        <i class="fas fa-globe"></i> English, USD
+                    </a>
+                    <a href="#" class="flex items-center gap-1 text-sm">
+                        <i class="fas fa-truck"></i> Ship to
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-between items-center pt-2">
+                <div class="text-sm text-gray-600">Home > Clothing > Men's wear > Summer clothing</div>
+                <div class="flex gap-4">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-comment"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-6 flex">
+        <!-- Sidebar (same as index.html) -->
+        <div class="w-64 bg-white shadow rounded-lg p-4 mr-6">
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Category</h3>
+                <ul class="space-y-1">
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Mobile accessory</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Electronics</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Smartphones</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Modern tech</li>
+                    <li class="text-blue-500 font-medium cursor-pointer">See all</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Brands</h3>
+                <ul class="space-y-1">
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Samsung</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Apple</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Huawei</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Pocco</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Lenovo</li>
+                    <li class="text-blue-500 font-medium cursor-pointer">See all</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Features</h3>
+                <ul class="space-y-1">
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Metallic</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Plastic cover</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">8GB Ram</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Super power</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Large Memory</li>
+                    <li class="text-blue-500 font-medium cursor-pointer">See all</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Price range</h3>
+                <div class="flex gap-2 mb-2">
+                    <input type="text" placeholder="Min" class="w-full p-2 border rounded">
+                    <input type="text" placeholder="Max" class="w-full p-2 border rounded">
+                </div>
+                <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm">Apply</button>
+            </div>
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Condition</h3>
+                <ul class="space-y-1">
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Any</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Refurbished</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Brand new</li>
+                    <li class="text-gray-600 hover:text-blue-500 cursor-pointer">Old items</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="font-semibold mb-2">Ratings</h3>
+                <ul class="space-y-1">
+                    <li class="text-yellow-400 hover:text-yellow-500 cursor-pointer">★★★★★</li>
+                    <li class="text-yellow-400 hover:text-yellow-500 cursor-pointer">★★★★☆</li>
+                    <li class="text-yellow-400 hover:text-yellow-500 cursor-pointer">★★★☆☆</li>
+                    <li class="text-yellow-400 hover:text-yellow-500 cursor-pointer">★★☆☆☆</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Products List -->
+        <div class="flex-1 bg-white shadow rounded-lg p-4">
+            <div class="mb-4">
+                <h2 class="text-lg font-semibold">12,911 items in Mobile accessory</h2>
+            </div>
+            
+            <!-- Product 1 -->
+            <div class="border rounded-lg overflow-hidden mb-4 flex">
+                <div class="w-48 h-48 bg-gray-100 flex items-center justify-center">
+                    <!-- Replace with your image -->
+                    <img src="images/tech/1.jpg" alt="Canon Camera" class="h-full object-contain">
+                </div>
+                <div class="p-4 flex-1">
+                    <h3 class="font-bold">Canon Camera EOS 2000, Black 10x zoom</h3>
+                    <div class="my-2">
+                        <span class="font-bold">$998.00</span>
+                        <span class="text-gray-400 line-through text-sm ml-2">$1128.00</span>
+                    </div>
+                    <div class="flex items-center text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-600 ml-1">7.5</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">15.4 orders</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">Free Shipping</span>
+                    </div>
+                    <p class="text-gray-600 text-sm my-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <a href="product.html" class="text-blue-500 text-sm">View details</a>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="border rounded-lg overflow-hidden mb-4 flex">
+                <div class="w-48 h-48 bg-gray-100 flex items-center justify-center">
+                    <!-- Replace with your image -->
+                    <img src="images/tech/3.jpg" alt="Canon Camera" class="h-full object-contain">
+                </div>
+                <div class="p-4 flex-1">
+                    <h3 class="font-bold">Canon Camera EOS 2000, Black 10x zoom</h3>
+                    <div class="my-2">
+                        <span class="font-bold">$998.00</span>
+                        <span class="text-gray-400 line-through text-sm ml-2">$1128.00</span>
+                    </div>
+                    <div class="flex items-center text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-600 ml-1">7.5</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">15.4 orders</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">Free Shipping</span>
+                    </div>
+                    <p class="text-gray-600 text-sm my-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <a href="product.html" class="text-blue-500 text-sm">View details</a>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="border rounded-lg overflow-hidden mb-4 flex">
+                <div class="w-48 h-48 bg-gray-100 flex items-center justify-center">
+                    <!-- Replace with your image -->
+                    <img src="images/tech/2.jpg" alt="Canon Camera" class="h-full object-contain">
+                </div>
+                <div class="p-4 flex-1">
+                    <h3 class="font-bold">Canon Camera EOS 2000, Black 10x zoom</h3>
+                    <div class="my-2">
+                        <span class="font-bold">$998.00</span>
+                        <span class="text-gray-400 line-through text-sm ml-2">$1128.00</span>
+                    </div>
+                    <div class="flex items-center text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-600 ml-1">7.5</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">15.4 orders</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">Free Shipping</span>
+                    </div>
+                    <p class="text-gray-600 text-sm my-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <a href="product.html" class="text-blue-500 text-sm">View details</a>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="border rounded-lg overflow-hidden mb-4 flex">
+                <div class="w-48 h-48 bg-gray-100 flex items-center justify-center">
+                    <!-- Replace with your image -->
+                    <img src="images/tech/7.jpg" alt="Canon Camera" class="h-full object-contain">
+                </div>
+                <div class="p-4 flex-1">
+                    <h3 class="font-bold">Canon Camera EOS 2000, Black 10x zoom</h3>
+                    <div class="my-2">
+                        <span class="font-bold">$998.00</span>
+                        <span class="text-gray-400 line-through text-sm ml-2">$1128.00</span>
+                    </div>
+                    <div class="flex items-center text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-600 ml-1">7.5</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">15.4 orders</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">Free Shipping</span>
+                    </div>
+                    <p class="text-gray-600 text-sm my-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <a href="product.html" class="text-blue-500 text-sm">View details</a>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="border rounded-lg overflow-hidden mb-4 flex">
+                <div class="w-48 h-48 bg-gray-100 flex items-center justify-center">
+                    <!-- Replace with your image -->
+                    <img src="images/tech/8.jpg" alt="Canon Camera" class="h-full object-contain">
+                </div>
+                <div class="p-4 flex-1">
+                    <h3 class="font-bold">Canon Camera EOS 2000, Black 10x zoom</h3>
+                    <div class="my-2">
+                        <span class="font-bold">$998.00</span>
+                        <span class="text-gray-400 line-through text-sm ml-2">$1128.00</span>
+                    </div>
+                    <div class="flex items-center text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-600 ml-1">7.5</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">15.4 orders</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">Free Shipping</span>
+                    </div>
+                    <p class="text-gray-600 text-sm my-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <a href="product.html" class="text-blue-500 text-sm">View details</a>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="border rounded-lg overflow-hidden mb-4 flex">
+                <div class="w-48 h-48 bg-gray-100 flex items-center justify-center">
+                    <!-- Replace with your image -->
+                    <img src="images/tech/9.jpg" alt="Canon Camera" class="h-full object-contain">
+                </div>
+                <div class="p-4 flex-1">
+                    <h3 class="font-bold">Canon Camera EOS 2000, Black 10x zoom</h3>
+                    <div class="my-2">
+                        <span class="font-bold">$998.00</span>
+                        <span class="text-gray-400 line-through text-sm ml-2">$1128.00</span>
+                    </div>
+                    <div class="flex items-center text-yellow-400 text-sm">
+                        ★★★★★ <span class="text-gray-600 ml-1">7.5</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">15.4 orders</span>
+                        <span class="text-gray-400 mx-2">~</span>
+                        <span class="text-gray-600">Free Shipping</span>
+                    </div>
+                    <p class="text-gray-600 text-sm my-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <a href="product.html" class="text-blue-500 text-sm">View details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter and Footer (same as index.html) -->
+    <!-- Newsletter -->
+    <div class="bg-gray-50 py-8 my-8">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div>
+                <h3 class="font-bold">Subscribe on our newsletter</h3>
+                <p class="text-gray-600 text-sm">Get daily news on upcoming offers from many suppliers all over the world</p>
+            </div>
+            <div class="flex gap-2">
+                <input type="email" placeholder="Email" class="px-4 py-2 border rounded w-64">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-white shadow-inner py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-5 gap-6 mb-8">
+                <div class="col-span-2">
+                    <h4 class="font-bold mb-3">Brand</h4>
+                    <p class="text-gray-600 text-sm">Best information about the company gets here but now brem ipsum is</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">About</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">About Us</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Find store</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Categories</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Blogs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Partnership</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">About Us</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Find store</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Categories</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Blogs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Information</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">Help Center</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Money Refund</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Shipping</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Contact us</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">For users</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">Login</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Register</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Settings</li>
+                        <li class="hover:text-blue-500 cursor-pointer">My Orders</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Get app</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="hover:text-blue-500 cursor-pointer">App Store</li>
+                        <li class="hover:text-blue-500 cursor-pointer">Google Play</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-gray-500 text-sm border-t pt-4">© 2023 Ecommerce.</div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
